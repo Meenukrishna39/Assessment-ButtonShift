@@ -1,0 +1,9 @@
+{
+    "emailValidation":"#mui-2-helper-text",
+    "email":"abc@gmail.com",
+    "password1":"123456",
+    "password2":"123456",
+    "passwordValidation":"div:nth-of-type(1) > .Mui-error.MuiFormHelperText-filled.MuiFormHelperText-root.MuiFormHelperText-sizeMedium.css-beuis0",
+    "otpFieldValidation":".MuiTypography-body1.MuiTypography-root.css-dede6r"
+
+}

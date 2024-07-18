@@ -1,0 +1,38 @@
+{
+  "url": "http://dev-fe.buttonshift.com/",
+
+  "user": {
+    "email": "button@gmail.com",
+    "password": "12345678",
+    "phoneNumber": "1234567890"
+  },
+
+  "signup": {
+    "signupButton": ".MuiButton-contained.MuiButton-containedPrimary.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-sizeMedium.MuiButtonBase-root.css-16uizaj",
+    "emailTextarea": ".MuiInput-input.MuiInputBase-input.MuiInputBase-inputAdornedEnd.css-hy3fez",
+    "authchecker": "form#AuthChecker svg",
+    "passwordTextarea1": "div:nth-of-type(1) > .MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-root.css-vc5wo > .MuiInput-input.MuiInputBase-input.css-hy3fez",
+    "passwordTextarea2": "div:nth-of-type(2) > .MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-root.css-vc5wo > .MuiInput-input.MuiInputBase-input.css-hy3fez",
+    "enterButtonPassword": ".MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-1cbp9qz > svg",
+    "otpInput": "div[style='display: flex; align-items: center;'] input",
+    "enterOtpButton": ".MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-1cbp9qz > svg",
+    "dropDown": ".MuiAutocomplete-input.MuiInput-input.MuiInputBase-input.MuiInputBase-inputAdornedEnd.css-hy3fez",
+    "dropdownList": "ul[role='listbox'] > li",
+    "dropdownListIndia": "ul[role='listbox'] > li:nth-of-type(101)",
+    "phoneNumberInput": ".MuiInput-input.MuiInputBase-input.MuiInputBase-inputAdornedStart.css-hy3fez",
+    "verify": ".MuiButton-root.MuiButton-sizeSmall.MuiButton-text.MuiButton-textPrimary.MuiButton-textSizeSmall.MuiButtonBase-root.MuiLoadingButton-root.css-5nlbxj",
+    "verifiedTick": ".css-u6e1c1 [focusable]",
+    "signup": ".css-bs0ocn [tabindex]",
+    "menu": "[class='MuiBox-root css-1w0dmnq'] [xmlns]",
+    "logout": "button:nth-of-type(7) > svg#Icons"
+  },
+  "login": {
+    "loginButton":".MuiBox-root.css-m7nve9 > .MuiButton-root.MuiButton-sizeMedium.MuiButton-text.MuiButton-textPrimary.MuiButton-textSizeMedium.MuiButtonBase-root.css-6mcc7m",
+    "emailTextarea":".MuiInput-input.MuiInputBase-input.MuiInputBase-inputAdornedEnd.css-hy3fez",
+    "passwordTextarea": ".MuiInput-input.MuiInputBase-input.MuiInputBase-inputAdornedEnd.css-hy3fez",
+    "login":".css-bs0ocn > [tabindex]"
+
+
+
+  }
+}

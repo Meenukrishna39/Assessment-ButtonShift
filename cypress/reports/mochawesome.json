@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-18T15:19:33.526Z",
+    "end": "2024-07-18T15:19:59.255Z",
+    "duration": 25729,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "86014561-6858-4e54-a621-f5708346f6b9",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ui\\FormValidation.cy.js",
+      "file": "cypress\\e2e\\ui\\FormValidation.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9574903e-7b22-4e68-8b4b-3c7faa735d71",
+          "title": "Form Validations",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should check that all fields are required",
+              "fullTitle": "Form Validations Should check that all fields are required",
+              "timedOut": null,
+              "duration": 21907,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(this.userData.url);\ncy.get(this.userData.signup.signupButton).click();\ncy.get(this.userData.signup.authchecker).click();\ncy.get(this.validation.emailValidation).should('exist');\ncy.get(this.userData.signup.emailTextarea).type(this.userData.user.email);\ncy.get(this.userData.signup.authchecker).click();\ncy.get(this.userData.signup.passwordTextarea1).type(this.validation.password1);\ncy.get(this.userData.signup.passwordTextarea2).type(this.validation.password2);\ncy.get(this.userData.signup.enterButtonPassword).click();\ncy.get(this.validation.passwordValidation).should('exist');\ncy.get(this.userData.signup.passwordTextarea1).type(this.userData.user.password);\ncy.get(this.userData.signup.passwordTextarea2).type(this.userData.user.password);\ncy.get(this.userData.signup.enterButtonPassword).click();\ncy.get(this.userData.signup.enterOtpButton).click();\ncy.get(this.validation.otpFieldValidation).should('exist');\nconst otp = \"123456\";\nconst otpChars = otp.split(\"\");\ncy.get(this.userData.signup.otpInput).each(($el, index) => {\n  cy.wrap($el).type(otpChars[index]);\n});",
+              "err": {},
+              "uuid": "ab47a811-88b8-48da-bc04-a3556aeef1f4",
+              "parentUUID": "9574903e-7b22-4e68-8b4b-3c7faa735d71",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ab47a811-88b8-48da-bc04-a3556aeef1f4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21907,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
